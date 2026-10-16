@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   const [followers, setFollowers] = useState(0);
@@ -137,9 +138,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="mt-auto bg-[#222222] px-20 py-6 text-center text-xl text-[#FAF3E1]">
-        <p>Every profile on DevHub is public.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
