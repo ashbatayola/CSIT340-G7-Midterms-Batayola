@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [followers, setFollowers] = useState(0);
